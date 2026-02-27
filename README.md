@@ -1,36 +1,34 @@
-# The MultiClaw Public Library
+# The MultiClaw Public Library 📚🦞
 
-The **MultiClaw Public Library** is the learnable knowledge layer for AIML Solutions.
+[![Library Quality Gate](https://github.com/AIML-Solutions/multiclaw-public-library/actions/workflows/ci.yml/badge.svg)](https://github.com/AIML-Solutions/multiclaw-public-library/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-22c55e.svg)](LICENSE)
 
-It turns live engineering work (quant, LLM, web3, frontend, MLOps) into structured documentation that humans and agents can both use.
+The **MultiClaw Public Library** is the living documentation layer for AIML Solutions.
+
+It turns active engineering work into teachable, reusable references for both humans and agents.
 
 ## Mission
 
-- Teach the stack as it is built
-- Keep architecture, tools, and playbooks synchronized with reality
-- Create a reusable onboarding path for new contributors
+- keep architecture + implementation docs synchronized
+- make onboarding practical for new contributors
+- publish playbooks that are action-ready, not theoretical
 
-## Library structure
+## Primary sections
 
-- `docs/departments/` — org design and team charters
-- `docs/stack/` — tool/framework references
-- `docs/playbooks/` — operational workflows and launch templates
-- `examples/` — practical examples and starter snippets
+- `docs/departments/` — organizational model and ownership
+- `docs/stack/` — framework/tooling references
+- `docs/playbooks/` — operational and launch playbooks
+- `examples/` — runnable or near-runnable examples
 
-## Current highlights
+## Recommended reading path
 
-- Department overview and operating boundaries
-- Tooling index for MultiClaw’s active stack
-- AWS free-tier planning playbook
-- LinkedIn launch post draft and media order
+1. [docs/README.md](docs/README.md)
+2. [docs/departments/overview.md](docs/departments/overview.md)
+3. [docs/stack/tooling-index.md](docs/stack/tooling-index.md)
+4. [docs/playbooks/aws-free-tier-plan.md](docs/playbooks/aws-free-tier-plan.md)
+5. [docs/playbooks/linkedin-launch-post.md](docs/playbooks/linkedin-launch-post.md)
 
-## Who this is for
-
-- Internal teams aligning on system architecture
-- External collaborators evaluating technical direction
-- New engineers learning the MultiClaw operating model
-
-## Related repositories
+## Related repos
 
 - `multiclaw-core`
 - `multiclaw-quant`
@@ -38,6 +36,10 @@ It turns live engineering work (quant, LLM, web3, frontend, MLOps) into structur
 - `multiclaw-blockchain`
 - `multiclaw-llm`
 - `multiclaw-frontend`
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 

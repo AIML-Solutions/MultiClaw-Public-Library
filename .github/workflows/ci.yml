@@ -1,0 +1,34 @@
+name: Library Quality Gate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Baseline files
+        run: |
+          test -f README.md
+          test -f docs/README.md
+          test -f docs/departments/overview.md
+          test -f docs/stack/tooling-index.md
+
+      - name: Secret hygiene scan
+        run: |
+          if git ls-files -z | xargs -0 -r grep -nE '(BEGIN (RSA|OPENSSH|EC) PRIVATE KEY|sk-[A-Za-z0-9]{20,}|gh[pousr]_[A-Za-z0-9]{20,}|AKIA[0-9A-Z]{16})'; then
+            echo 'Potential secret-like material detected.'
+            exit 1
+          fi
+
+      - name: Docs density check
+        run: |
+          count=$(find docs -name '*.md' | wc -l)
+          echo "docs markdown files: $count"
+          test "$count" -ge 6
