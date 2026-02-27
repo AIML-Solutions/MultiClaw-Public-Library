@@ -26,13 +26,15 @@ So we designed MultiClaw as specialized departments with narrow scopes, clear in
 - **MultiClaw Public Library** (living documentation so the stack is learnable and reusable)
 
 ### Repositories now live
-- multiclaw-core
-- multiclaw-quant
-- multiclaw-blockchain
-- multiclaw-mlflow
-- multiclaw-llm
-- multiclaw-frontend
-- multiclaw-public-library
+- MultiClaw-Core
+- MultiClaw-Quant-Tools
+- MultiClaw-Blockchain
+- MultiClaw-MLFlow
+- MultiClaw-LLM
+- MultiClaw-Frontend
+- MultiClaw-Public-Library
+- ProRepoAgentOps
+- SnorkelTools
 
 ### Tooling direction
 - Data + APIs: PostgreSQL, GraphQL, JSON-RPC, MCP adapters

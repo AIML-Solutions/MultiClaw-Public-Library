@@ -1,9 +1,9 @@
-# The MultiClaw Public Library 📚🦞
+# MultiClaw-Public-Library 📚🦞
 
 [![Library Quality Gate](https://github.com/AIML-Solutions/multiclaw-public-library/actions/workflows/ci.yml/badge.svg)](https://github.com/AIML-Solutions/multiclaw-public-library/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-22c55e.svg)](LICENSE)
 
-The **MultiClaw Public Library** is the living documentation layer for AIML Solutions.
+The **MultiClaw-Public-Library** is the living documentation layer for AIML Solutions.
 
 It turns active engineering work into teachable, reusable references for both humans and agents.
 
@@ -30,12 +30,15 @@ It turns active engineering work into teachable, reusable references for both hu
 
 ## Related repos
 
-- `multiclaw-core`
-- `multiclaw-quant`
-- `multiclaw-mlflow`
-- `multiclaw-blockchain`
-- `multiclaw-llm`
-- `multiclaw-frontend`
+- `MultiClaw-Core`
+- `MultiClaw-Quant-Tools`
+- `MultiClaw-MLFlow`
+- `MultiClaw-Blockchain`
+- `MultiClaw-LLM`
+- `MultiClaw-Frontend`
+- `MultiClaw-Public-Library`
+- `ProRepoAgentOps`
+- `SnorkelTools`
 
 ## Contributing
 
