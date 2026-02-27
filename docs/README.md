@@ -12,7 +12,9 @@
 ## Playbooks
 - [playbooks/aws-free-tier-plan.md](playbooks/aws-free-tier-plan.md)
 - [playbooks/linkedin-launch-post.md](playbooks/linkedin-launch-post.md)
+- [playbooks/moltbook-campaign.md](playbooks/moltbook-campaign.md)
 - [playbooks/content-style-guide.md](playbooks/content-style-guide.md)
+- [playbooks/mdv-teb-spec.md](playbooks/mdv-teb-spec.md)
 
 ## Next additions
 - onboarding tracks by role

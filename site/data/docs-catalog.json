@@ -1,0 +1,101 @@
+[
+  {
+    "id": "core-scope",
+    "title": "MultiClaw-Core · Scope",
+    "repo": "MultiClaw-Core",
+    "lane": "Core",
+    "tags": ["architecture", "governance"],
+    "githubUrl": "https://github.com/AIML-Solutions/MultiClaw-core/blob/main/docs/SCOPE.md",
+    "rawUrl": "https://raw.githubusercontent.com/AIML-Solutions/MultiClaw-core/main/docs/SCOPE.md"
+  },
+  {
+    "id": "core-topology",
+    "title": "MultiClaw-Core · Repo Topology",
+    "repo": "MultiClaw-Core",
+    "lane": "Core",
+    "tags": ["repos", "strategy"],
+    "githubUrl": "https://github.com/AIML-Solutions/MultiClaw-core/blob/main/docs/REPO_TOPOLOGY.md",
+    "rawUrl": "https://raw.githubusercontent.com/AIML-Solutions/MultiClaw-core/main/docs/REPO_TOPOLOGY.md"
+  },
+  {
+    "id": "core-routing",
+    "title": "MultiClaw-Core · Agent Model Routing",
+    "repo": "MultiClaw-Core",
+    "lane": "Core",
+    "tags": ["models", "cost-control"],
+    "githubUrl": "https://github.com/AIML-Solutions/MultiClaw-core/blob/main/docs/AGENT_MODEL_ROUTING.md",
+    "rawUrl": "https://raw.githubusercontent.com/AIML-Solutions/MultiClaw-core/main/docs/AGENT_MODEL_ROUTING.md"
+  },
+  {
+    "id": "core-minutes-protocol",
+    "title": "MultiClaw-Core · Meeting Minutes Protocol",
+    "repo": "MultiClaw-Core",
+    "lane": "Core",
+    "tags": ["operations", "reporting"],
+    "githubUrl": "https://github.com/AIML-Solutions/MultiClaw-core/blob/main/docs/MEETING_MINUTES_PROTOCOL.md",
+    "rawUrl": "https://raw.githubusercontent.com/AIML-Solutions/MultiClaw-core/main/docs/MEETING_MINUTES_PROTOCOL.md"
+  },
+  {
+    "id": "quant-architecture",
+    "title": "MultiClaw-Quant-Tools · Architecture",
+    "repo": "MultiClaw-Quant-Tools",
+    "lane": "Quant",
+    "tags": ["lean", "market-data"],
+    "githubUrl": "https://github.com/AIML-Solutions/MultiClaw-quant-tools/blob/main/docs/architecture.md",
+    "rawUrl": "https://raw.githubusercontent.com/AIML-Solutions/MultiClaw-quant-tools/main/docs/architecture.md"
+  },
+  {
+    "id": "quant-data-hours",
+    "title": "MultiClaw-Quant-Tools · Data Sources & Market Hours",
+    "repo": "MultiClaw-Quant-Tools",
+    "lane": "Quant",
+    "tags": ["options", "derivatives", "market-hours"],
+    "githubUrl": "https://github.com/AIML-Solutions/MultiClaw-quant-tools/blob/main/docs/data-sources-and-market-hours.md",
+    "rawUrl": "https://raw.githubusercontent.com/AIML-Solutions/MultiClaw-quant-tools/main/docs/data-sources-and-market-hours.md"
+  },
+  {
+    "id": "quant-greeks",
+    "title": "MultiClaw-Quant-Tools · Options & Greeks Playbook",
+    "repo": "MultiClaw-Quant-Tools",
+    "lane": "Quant",
+    "tags": ["greeks", "options", "risk"],
+    "githubUrl": "https://github.com/AIML-Solutions/MultiClaw-quant-tools/blob/main/docs/OPTIONS_GREEKS_PLAYBOOK.md",
+    "rawUrl": "https://raw.githubusercontent.com/AIML-Solutions/MultiClaw-quant-tools/main/docs/OPTIONS_GREEKS_PLAYBOOK.md"
+  },
+  {
+    "id": "mlflow-architecture",
+    "title": "MultiClaw-MLFlow · Architecture",
+    "repo": "MultiClaw-MLFlow",
+    "lane": "MLFlow",
+    "tags": ["mlops", "tracking"],
+    "githubUrl": "https://github.com/AIML-Solutions/MultiClaw-MLFlow/blob/main/docs/architecture.md",
+    "rawUrl": "https://raw.githubusercontent.com/AIML-Solutions/MultiClaw-MLFlow/main/docs/architecture.md"
+  },
+  {
+    "id": "mlflow-standard",
+    "title": "MultiClaw-MLFlow · Experiment Standard",
+    "repo": "MultiClaw-MLFlow",
+    "lane": "MLFlow",
+    "tags": ["evaluation", "registry"],
+    "githubUrl": "https://github.com/AIML-Solutions/MultiClaw-MLFlow/blob/main/docs/EXPERIMENT_STANDARD.md",
+    "rawUrl": "https://raw.githubusercontent.com/AIML-Solutions/MultiClaw-MLFlow/main/docs/EXPERIMENT_STANDARD.md"
+  },
+  {
+    "id": "library-overview",
+    "title": "MultiClaw-Public-Library · Departments Overview",
+    "repo": "MultiClaw-Public-Library",
+    "lane": "Library",
+    "tags": ["organization", "onboarding"],
+    "githubUrl": "https://github.com/AIML-Solutions/multiclaw-public-library/blob/main/docs/departments/overview.md",
+    "rawUrl": "https://raw.githubusercontent.com/AIML-Solutions/multiclaw-public-library/main/docs/departments/overview.md"
+  },
+  {
+    "id": "library-tooling",
+    "title": "MultiClaw-Public-Library · Tooling Index",
+    "repo": "MultiClaw-Public-Library",
+    "lane": "Library",
+    "tags": ["stack", "reference"],
+    "githubUrl": "https://github.com/AIML-Solutions/multiclaw-public-library/blob/main/docs/stack/tooling-index.md",
+    "rawUrl": "https://raw.githubusercontent.com/AIML-Solutions/multiclaw-public-library/main/docs/stack/tooling-index.md"
+  }
+]

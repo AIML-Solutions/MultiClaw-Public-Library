@@ -12,6 +12,7 @@ It turns active engineering work into teachable, reusable references for both hu
 - keep architecture + implementation docs synchronized
 - make onboarding practical for new contributors
 - publish playbooks that are action-ready, not theoretical
+- provide an operator-facing docs/workflow UI (MDV + TEB)
 
 ## Primary sections
 
@@ -27,6 +28,17 @@ It turns active engineering work into teachable, reusable references for both hu
 3. [docs/stack/tooling-index.md](docs/stack/tooling-index.md)
 4. [docs/playbooks/aws-free-tier-plan.md](docs/playbooks/aws-free-tier-plan.md)
 5. [docs/playbooks/linkedin-launch-post.md](docs/playbooks/linkedin-launch-post.md)
+6. [docs/playbooks/mdv-teb-spec.md](docs/playbooks/mdv-teb-spec.md)
+7. [docs/playbooks/moltbook-campaign.md](docs/playbooks/moltbook-campaign.md)
+
+## MDV + TEB front-end
+
+A lightweight static front-end is included in `site/`:
+- **MDV** = MultiClaw Docs Viewer
+- **TEB** = Tracked Execution Board
+
+Once Pages deploys, expected URL:
+- `https://aiml-solutions.github.io/multiclaw-public-library/`
 
 ## Related repos
 

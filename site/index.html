@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MultiClaw Docs Viewer (MDV) + Tracked Execution Board (TEB)</title>
+    <meta
+      name="description"
+      content="MultiClaw-Public-Library interface for browsing architecture docs and managing tracked execution tasks."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <div class="shell">
+      <header class="topbar">
+        <div class="brand">MultiClaw Docs Viewer <span>🦞</span></div>
+        <div class="sub">MDV + TEB · MultiClaw-Public-Library</div>
+      </header>
+
+      <section class="hero card">
+        <h1>Documentation + execution control in one place</h1>
+        <p>
+          Use <b>MDV</b> to read architecture/runbook markdown across MultiClaw repos.
+          Use <b>TEB</b> to track execution tasks, MCP expansion, market-data integration, and release readiness.
+        </p>
+        <div class="hero-badges">
+          <span>MultiClaw-Core</span>
+          <span>MultiClaw-Quant-Tools</span>
+          <span>MultiClaw-MLFlow</span>
+          <span>MultiClaw-Blockchain</span>
+          <span>MultiClaw-LLM</span>
+          <span>MultiClaw-Frontend</span>
+          <span>ProRepoAgentOps</span>
+          <span>SnorkelTools</span>
+        </div>
+      </section>
+
+      <nav class="tabs card">
+        <button id="tab-mdv" class="tab active">MDV · Docs Viewer</button>
+        <button id="tab-teb" class="tab">TEB · Execution Board</button>
+      </nav>
+
+      <main>
+        <section id="panel-mdv" class="panel card">
+          <div class="panel-head">
+            <h2>MultiClaw Docs Viewer (MDV)</h2>
+            <div class="controls">
+              <input id="doc-search" type="search" placeholder="Search docs, repos, tags..." />
+              <select id="doc-repo-filter">
+                <option value="all">All Repos</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid-mdv">
+            <aside>
+              <div class="aside-title">Documents</div>
+              <div id="doc-list" class="doc-list"></div>
+            </aside>
+
+            <section>
+              <div class="doc-toolbar">
+                <button id="open-github" class="btn" disabled>Open on GitHub</button>
+                <button id="open-raw" class="btn" disabled>Open Raw</button>
+                <button id="copy-doc-link" class="btn" disabled>Copy Link</button>
+                <span id="doc-status" class="status">No doc selected</span>
+              </div>
+              <article id="doc-render" class="doc-render">Pick a document from the left panel.</article>
+            </section>
+          </div>
+        </section>
+
+        <section id="panel-teb" class="panel card hidden">
+          <div class="panel-head">
+            <h2>Tracked Execution Board (TEB)</h2>
+            <div class="controls">
+              <select id="task-status-filter">
+                <option value="all">All Status</option>
+                <option value="todo">To Do</option>
+                <option value="in-progress">In Progress</option>
+                <option value="blocked">Blocked</option>
+                <option value="done">Done</option>
+              </select>
+              <select id="task-lane-filter">
+                <option value="all">All Lanes</option>
+              </select>
+              <button id="reset-board" class="btn danger">Reset board state</button>
+            </div>
+          </div>
+
+          <div class="teb-summary">
+            <div><b id="count-total">0</b><span>Total</span></div>
+            <div><b id="count-done">0</b><span>Done</span></div>
+            <div><b id="count-ip">0</b><span>In Progress</span></div>
+            <div><b id="count-blocked">0</b><span>Blocked</span></div>
+          </div>
+
+          <div id="task-list" class="task-list"></div>
+
+          <div class="result-box">
+            <div class="result-head">
+              <h3>Meeting-minutes output box</h3>
+              <button id="generate-summary" class="btn">Generate summary text</button>
+            </div>
+            <textarea id="summary-output" rows="10" placeholder="Generated session summary will appear here..."></textarea>
+            <div class="result-actions">
+              <button id="copy-summary" class="btn">Copy summary</button>
+              <span id="copy-status" class="status"></span>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="card footer">
+        <div>
+          MultiClaw-Public-Library · MDV/TEB alpha · Built for execution clarity, not fluff. 🦞
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

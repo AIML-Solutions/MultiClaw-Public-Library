@@ -1,0 +1,99 @@
+[
+  {
+    "id": "mcp-catalog",
+    "title": "Publish MCP capability catalog by department",
+    "lane": "Core",
+    "status": "in-progress",
+    "priority": "P1",
+    "owner": "Dennis + AuroraPhaedra",
+    "description": "Define MCP methods for Quant, MLFlow, Blockchain, LLM, and Frontend lanes with input/output schemas and permission scopes.",
+    "links": [
+      { "label": "MultiClaw-Core", "url": "https://github.com/AIML-Solutions/MultiClaw-core" }
+    ]
+  },
+  {
+    "id": "quant-options-hires",
+    "title": "Finalize best options/derivatives feeds (US + Intl)",
+    "lane": "Quant",
+    "status": "todo",
+    "priority": "P1",
+    "owner": "Quant lane",
+    "description": "Rank provider options by freshness, granularity, coverage, and cost (LEAN provider mix + external APIs where needed).",
+    "links": [
+      { "label": "MultiClaw-Quant-Tools", "url": "https://github.com/AIML-Solutions/MultiClaw-quant-tools" }
+    ]
+  },
+  {
+    "id": "chain-retrieval-pipeline",
+    "title": "Expand blockchain retrieval + transformation scripts",
+    "lane": "Blockchain",
+    "status": "todo",
+    "priority": "P1",
+    "owner": "Blockchain lane",
+    "description": "Implement production-ready pull/normalize/validate pipeline for token transfers and transaction graph access.",
+    "links": [
+      { "label": "MultiClaw-Blockchain", "url": "https://github.com/AIML-Solutions/multiclaw-blockchain" },
+      { "label": "SnorkelTools", "url": "https://github.com/AIML-Solutions/SnorkelTools" }
+    ]
+  },
+  {
+    "id": "nextjs-docs-viewer",
+    "title": "Package MDV/TEB as reusable Next.js component set",
+    "lane": "Frontend",
+    "status": "in-progress",
+    "priority": "P2",
+    "owner": "Frontend lane",
+    "description": "Promote this viewer into reusable UI components for MultiClaw-Frontend and internal portals.",
+    "links": [
+      { "label": "MultiClaw-Frontend", "url": "https://github.com/AIML-Solutions/multiclaw-frontend" }
+    ]
+  },
+  {
+    "id": "staggered-repo-hardening",
+    "title": "Bring staggered repos to public-quality parity",
+    "lane": "Core",
+    "status": "in-progress",
+    "priority": "P1",
+    "owner": "Core lane",
+    "description": "Apply style, docs, CI, and release templates to MultiClaw-Blockchain, MultiClaw-LLM, and MultiClaw-Frontend repo before broader release.",
+    "links": [
+      { "label": "ProRepoAgentOps", "url": "https://github.com/AIML-Solutions/ProRepoAgentOps" }
+    ]
+  },
+  {
+    "id": "moltbook-campaign",
+    "title": "Draft Moltbook campaign for MultiClaw launch",
+    "lane": "Growth",
+    "status": "todo",
+    "priority": "P2",
+    "owner": "Dennis",
+    "description": "Publish structured post series on curated data, frameworks, and tool suites for multiagentic FinTech + Web3 outcomes.",
+    "links": [
+      { "label": "Moltbook plan anchor", "url": "https://github.com/AIML-Solutions/MultiClaw-core" }
+    ]
+  },
+  {
+    "id": "aws-free-tier-guardrails",
+    "title": "Add AWS free-tier guardrails and budgets",
+    "lane": "Compliance",
+    "status": "todo",
+    "priority": "P1",
+    "owner": "Vinny + Core",
+    "description": "Codify S3/Lambda/compute limits, alerts, and monthly budget protections before scaling infra usage.",
+    "links": [
+      { "label": "AWS playbook", "url": "https://github.com/AIML-Solutions/multiclaw-public-library/blob/main/docs/playbooks/aws-free-tier-plan.md" }
+    ]
+  },
+  {
+    "id": "contract-hiring-readiness",
+    "title": "Strengthen hiring/contract positioning assets",
+    "lane": "Business",
+    "status": "in-progress",
+    "priority": "P1",
+    "owner": "Dennis",
+    "description": "Align portfolio, repo quality, and execution evidence toward Data/ML/AI Engineer + Solutions Architect opportunities (quant-first positioning).",
+    "links": [
+      { "label": "AIML site", "url": "https://aiml-solutions.com" }
+    ]
+  }
+]
