@@ -17,7 +17,7 @@
 - [playbooks/mdv-teb-spec.md](playbooks/mdv-teb-spec.md)
 
 ## Other
-- [backburner.md](backburner.md) — ongoing items (trading, Moltbook, ops) that don’t block doc or repo sync
+- [backburner.md](backburner.md) — ongoing items (trading, Moltbook, operations) that do not block doc or repo sync
 
 ## Next additions
 - onboarding tracks by role
