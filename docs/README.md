@@ -16,6 +16,9 @@
 - [playbooks/content-style-guide.md](playbooks/content-style-guide.md)
 - [playbooks/mdv-teb-spec.md](playbooks/mdv-teb-spec.md)
 
+## Other
+- [backburner.md](backburner.md) — ongoing items (trading, Moltbook, ops) that don’t block doc or repo sync
+
 ## Next additions
 - onboarding tracks by role
 - architecture diagrams and data flow maps

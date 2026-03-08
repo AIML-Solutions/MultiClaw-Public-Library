@@ -7,6 +7,8 @@ The **MultiClaw-Public-Library** is the living documentation layer for AIML Solu
 
 It turns active engineering work into teachable, reusable references for both humans and agents.
 
+**Stack note:** MultiClawOS is the orchestration and policy layer for the MultiClaw fintech stack (agent routing, permissions, runbooks). It is not a general-purpose OS like Windows or Linux—think of it as a *FinTechOS* layer on top of your environment.
+
 ## Mission
 
 - keep architecture + implementation docs synchronized
